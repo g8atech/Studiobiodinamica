@@ -1,0 +1,21 @@
+/* Studio Biodinamica — banner cookie, contenuti bloccati, privacy nei form */
+#sb-cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:100000;max-width:720px;margin:0 auto;background:#fff;color:#25247b;border-radius:6px;box-shadow:0 8px 30px rgba(0,0,0,.25);padding:20px 44px 18px 20px;font-family:'Muli',sans-serif;font-size:15px;line-height:1.5}
+#sb-cookie[hidden]{display:none}
+#sb-cookie p{margin:0 0 14px}
+#sb-cookie a{color:#5e1f8f;text-decoration:underline}
+#sb-cookie .sb-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+#sb-cookie .sb-close{position:absolute;top:6px;right:10px;border:0;background:none;font-size:26px;line-height:1;color:#25247b;cursor:pointer}
+.sb-btn{font-family:'Muli',sans-serif;font-size:15px;font-weight:600;border-radius:3px;padding:9px 22px;cursor:pointer;border:2px solid #4a0d8c;background:#4a0d8c;color:#fff}
+.sb-btn.sb-reject{background:#fff;color:#4a0d8c}
+.sb-btn:focus-visible,.sb-close:focus-visible{outline:3px solid #c38be8;outline-offset:2px}
+.sb-blocked{background:#f1ecf7;color:#25247b;padding:32px 20px;text-align:center;font-family:'Muli',sans-serif;min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
+.sb-blocked p{margin:0;max-width:44ch}
+.sb-blocked a{color:#5e1f8f;text-decoration:underline}
+.sb-privacy{display:block;font-size:13px;line-height:1.4;margin:6px 0 10px;text-align:left;cursor:pointer}
+.sb-privacy input{margin-right:6px;vertical-align:middle}
+.sb-privacy a{text-decoration:underline}
+.mbr-white .sb-privacy,.mbr-white .sb-privacy a{color:#fff}
+.sb-note{font-size:12px;opacity:.85;margin:0 0 10px;text-align:left}
+.sb-alert{display:block!important;white-space:pre-line;background:#e8f6ec;color:#1d5b32;padding:12px;border-radius:4px;margin-bottom:12px}
+.sb-legal{font-size:13px}
+.sb-legal a{text-decoration:underline}
